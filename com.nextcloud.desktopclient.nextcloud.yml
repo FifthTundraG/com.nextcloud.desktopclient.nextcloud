@@ -35,7 +35,6 @@ cleanup-commands:
   - /app/cleanup-BaseApp.sh
 
 modules:
-  - shared-modules/libsecret/libsecret.json
 
   - name: qtkeychain
     buildsystem: cmake-ninja
